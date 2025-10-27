@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch FileSearchApp",
+            "request": "launch",
+            "mainClass": "com.filesearch.FileSearchApp",
+            "projectName": "FileSearchApp"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Args",
+            "request": "launch",
+            "mainClass": "com.filesearch.FileSearchApp",
+            "args": ["src", "FileSearcher.java"],
+            "projectName": "FileSearchApp"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Run Current Test File",
+            "request": "launch",
+            "mainClass": "org.junit.platform.console.ConsoleLauncher",
+            "args": [
+                "--select-file",
+                "${file}"
+            ],
+            "projectName": "FileSearchApp"
+        }
+    ]
+}

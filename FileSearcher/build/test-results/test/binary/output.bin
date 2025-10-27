@@ -1,0 +1,44 @@
+_Found: C:\WINDOWS\TEMP\junit11557960331544417794\complexTest\subdir1\deep\deeper\deepfile.txt
+\Found: C:\WINDOWS\TEMP\junit2859755757162349854\enhancedCaseTest622532608335900\readme.txt
+dFound: C:\WINDOWS\TEMP\junit2859755757162349854\enhancedCaseTest622532608335900\subdir1\README.TXT
+dFound: C:\WINDOWS\TEMP\junit2859755757162349854\enhancedCaseTest622532608335900\subdir2\Readme.txt
+TFound: C:\WINDOWS\TEMP\junit16777722833180144716\specialChars\file with spaces.txt
+TFound: C:\WINDOWS\TEMP\junit16777722833180144716\specialChars\file-with-dashes.txt
+YFound: C:\WINDOWS\TEMP\junit16777722833180144716\specialChars\file_with_underscores.txt
+TFound: C:\WINDOWS\TEMP\junit2883293904700986982\caseTest622532632433600\readme.txt
+[Found: C:\WINDOWS\TEMP\junit2883293904700986982\caseTest622532632433600\subdir\Readme.txt
+GFound: C:\WINDOWS\TEMP\junit10171740877085833870\simpleTest\file1.txt
+	GFound: C:\WINDOWS\TEMP\junit6047799643061376004\simpleTest\config.xml
+
+EFound: C:\WINDOWS\TEMP\junit783735925705027894\simpleTest\readme.md
+GFound: C:\WINDOWS\TEMP\junit16590992064547472010\simpleTest\data.json
+MFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\common.txt
+UFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\common.txt
+aFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\deep\deeper\common.txt
+UFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir2\common.txt
+MFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\config.xml
+UFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\config.xml
+aFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\deep\deeper\config.xml
+TFound: C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir2\data.json
+Multiple file search found:
+H  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\common.txt
+P  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\common.txt
+\  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\deep\deeper\common.txt
+P  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir2\common.txt
+H  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\config.xml
+P  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\config.xml
+\  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir1\deep\deeper\config.xml
+O  C:\WINDOWS\TEMP\junit4918371113326269862\fixedComplexTest\subdir2\data.json
+GFound: C:\WINDOWS\TEMP\junit16339988783921280840\simpleTest\file1.txt
+UFound: C:\WINDOWS\TEMP\junit16999139174139451546\caseTest622532778231300\readme.txt
+HFound: C:\WINDOWS\TEMP\junit5747545141140214795\complexTest\common.txt
+PFound: C:\WINDOWS\TEMP\junit5747545141140214795\complexTest\subdir1\common.txt
+\Found: C:\WINDOWS\TEMP\junit5747545141140214795\complexTest\subdir1\deep\deeper\common.txt
+PFound: C:\WINDOWS\TEMP\junit5747545141140214795\complexTest\subdir2\common.txt
+FFound: C:\WINDOWS\TEMP\junit9433644219934024688\manyFiles\file25.txt
+;Found: C:\WINDOWS\TEMP\junit16252898514207855172\test.txt
+;Found: C:\WINDOWS\TEMP\junit16449067175208328253\test.txt
+<Found: C:\WINDOWS\TEMP\junit17908305550953342630\file1.txt
+<Found: C:\WINDOWS\TEMP\junit17908305550953342630\file2.xml
+!AFound: C:\WINDOWS\TEMP\junit3015804069781264067\subdir\TEST.TXT
+!:Found: C:\WINDOWS\TEMP\junit3015804069781264067\test.txt

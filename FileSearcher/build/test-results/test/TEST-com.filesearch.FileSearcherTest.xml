@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.filesearch.FileSearcherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-27T05:57:49.248Z" hostname="LENOVOY" time="0.051">
+  <properties/>
+  <testcase name="testSearchNonExistentFile()" classname="com.filesearch.FileSearcherTest" time="0.005"/>
+  <testcase name="testSearchWithEmptyFileNames()" classname="com.filesearch.FileSearcherTest" time="0.004"/>
+  <testcase name="testSearchInNonExistentDirectory()" classname="com.filesearch.FileSearcherTest" time="0.002"/>
+  <testcase name="testGetSearchResultsReturnsCopy()" classname="com.filesearch.FileSearcherTest" time="0.005"/>
+  <testcase name="testCountWithNoSearchPerformed()" classname="com.filesearch.FileSearcherTest" time="0.003"/>
+  <testcase name="testSearchSingleFileCaseSensitive()" classname="com.filesearch.FileSearcherTest" time="0.006"/>
+  <testcase name="testEmptyDirectory()" classname="com.filesearch.FileSearcherTest" time="0.005"/>
+  <testcase name="testSearchMultipleFiles()" classname="com.filesearch.FileSearcherTest" time="0.005"/>
+  <testcase name="testCaseSensitivityToggle()" classname="com.filesearch.FileSearcherTest" time="0.002"/>
+  <testcase name="testSearchSingleFileCaseInsensitive()" classname="com.filesearch.FileSearcherTest" time="0.007"/>
+  <system-out><![CDATA[Found: C:\WINDOWS\TEMP\junit16252898514207855172\test.txt
+Found: C:\WINDOWS\TEMP\junit16449067175208328253\test.txt
+Found: C:\WINDOWS\TEMP\junit17908305550953342630\file1.txt
+Found: C:\WINDOWS\TEMP\junit17908305550953342630\file2.xml
+Found: C:\WINDOWS\TEMP\junit3015804069781264067\subdir\TEST.TXT
+Found: C:\WINDOWS\TEMP\junit3015804069781264067\test.txt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

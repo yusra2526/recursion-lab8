@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.permutations.StringPermutationsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-10-27T05:48:26" hostname="LENOVOY" time="0.061">
+  <properties/>
+  <testcase name="testSingleCharacter()" classname="com.permutations.StringPermutationsTest" time="0.036"/>
+  <testcase name="testDuplicateCharactersExcludeDuplicates()" classname="com.permutations.StringPermutationsTest" time="0.002"/>
+  <testcase name="testFactorialCalculation()" classname="com.permutations.StringPermutationsTest" time="0.001"/>
+  <testcase name="testDuplicateCharactersIncludeDuplicates()" classname="com.permutations.StringPermutationsTest" time="0.001"/>
+  <testcase name="testEmptyString()" classname="com.permutations.StringPermutationsTest" time="0.001"/>
+  <testcase name="testIterativeAlgorithm()" classname="com.permutations.StringPermutationsTest" time="0.002"/>
+  <testcase name="testThreeCharacters()" classname="com.permutations.StringPermutationsTest" time="0.001"/>
+  <testcase name="testNullInput()" classname="com.permutations.StringPermutationsTest" time="0.002"/>
+  <testcase name="testTwoCharacters()" classname="com.permutations.StringPermutationsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

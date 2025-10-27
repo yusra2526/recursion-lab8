@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.permutations'
+version = '1.0.0'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit Jupiter API and Engine
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    
+    // JUnit Platform dependencies for running tests
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.9.2'
+    testImplementation 'org.junit.platform:junit-platform-suite:1.9.2'
+}
+
+application {
+    mainClass = 'com.permutations.PermutationApp'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        exceptionFormat "full"
+        showStandardStreams = true
+    }
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'com.permutations.PermutationApp'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
